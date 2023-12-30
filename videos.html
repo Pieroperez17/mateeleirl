@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mateel</title>
+        <link rel="shortcut icon" href="imagenes/logo_R.png" type="image/x-icon">
+        <link rel="stylesheet" href="adaw.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    </head>
+    <body onload="accionAlRecargar()">
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">
+                    <i class="fa-solid fa-tractor" style="color: yellow;"></i> MATEEL
+                </a>
+                <button class="nav-toggle" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item">
+                        <a href="index.html#prim" class="nav-menu-link nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="index.html#segu" class="nav-menu-link nav-link">Nosotros</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="index.html#terc" class="nav-menu-link nav-link">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="videos.html" class="nav-menu-link nav-link">Videos</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="index.html#cuart" class="nav-menu-link nav-link nav-menu-link_active">Contactanos</a>
+                    </li>
+                </ul>
+            </nav> 
+        </header>
+        <main>
+            <button id="antes"><i class="fa-solid fa-caret-right fa-rotate-180 fa-xl"></i></button>
+
+            <video src="videos/Mateel-Bombas.mp4" autoplay controls ></video>
+
+            <button id="despues"><i class="fa-solid fa-caret-right fa-xl"></i></button>
+        </main>
+        
+
+        <section>
+            <h1>OTROS VIDEOS</h1>
+            <div class="otros-vid">
+                <div class="vid">
+                    <video width="400" height="225" src="videos/primero.mp4"  controls  poster="Imagenes/preload.png" ></video>
+                    <h5><center>Mantenimiento preventivo de Retroexcavadora Jhon Deere</center></h5>
+                </div>
+                <div class="vid">
+                    <video width="400" height="225" src="videos/segundo.mp4" controls  poster="Imagenes/preload.png"   ></video>
+                    <h5><center>Mantenimiento de rutina | Tractores 6403 y 6603</center></h5>
+                </div>
+                <div class="vid">
+                    <video width="400" height="225" src="videos/tercero.mp4" controls  poster="Imagenes/preload.png"   ></video>
+                    <h5><center>Mantenimiento para las 50 horas de Tractor John Deere</center></h5>
+                </div>
+                <div class="vid">
+                    <video width="400" height="225" src="videos/cuarto.mp4" controls  poster="Imagenes/preload.png"   ></video>
+                    <h5><center>Mantenimiento 100 horas para Tractor John Deere</center></h5>
+                </div>
+                <div class="vid">
+                    <video width="400" height="225" src="videos/quinto.mp4" controls   poster="Imagenes/preload.png"   ></video>
+                    <h5><center>Mantenimiento filtro de aire en tractores John Deere</center></h5>
+                </div>
+                <div class="vid">
+                    <video width="400" height="225" src="videos/sexto.mp4" controls  poster="Imagenes/preload.png" ></video>
+                    <h5><center>Filtros John Deere | ¿por qué usarlos?</center></h5>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <script src="index.js"></script>
+    </body>
+</html>

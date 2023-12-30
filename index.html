@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateel EIRL</title>
+    <link rel="shortcut icon" href="Imagenes/logo_R.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body onload="accionAlRecargar()">
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo nav-link">
+                <i class="fa-solid fa-tractor" style="color: yellow;"></i> MATEEL
+            </a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="#prim" class="nav-menu-link nav-link">Inicio</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#segu" class="nav-menu-link nav-link">Nosotros</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#terc" class="nav-menu-link nav-link">Preguntas Frecuentes</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="videos.html" class="nav-menu-link nav-link">Videos</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#cuart" class="nav-menu-link nav-link nav-menu-link_active">Contactanos</a>
+                </li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <article class="one" id="prim">
+            <video id="video" class="contenedor-video normal" playsinline>
+                <source src="Imagenes/MateelVid.mp4" type="video/mp4">
+            </video>
+            <video id="video2" class="contenedor-video respo" playsinline muted>
+                <source src="Imagenes/Matereponsive.mp4" type="video/mp4">
+            </video>
+            <section class="ad" id="first">
+                <h1>MATEEL</h1>
+                <p>Empresa líder en la venta de repuestos de maquinaria pesada para construcción, minería, agricultura,etc.</p>
+                <p>ENCUENTRANOS A NIVEL NACIONAL</p>
+                <br>
+                <br>
+                <i class="fa-solid fa-caret-down fa-bounce fa-2xl" ></i>    
+            </section>
+        </article>
+
+        <article class="two" id="segu">
+            <div class="us">
+                <div class="texto-mid">
+                    <h1>Nosotros</h1>
+                    <br class="aff">
+                    <p>Somos Mateel, una empresa dedicada a la venta de repuestos de maquinaria pesada,nos esforzamos por ofrecer a nuestros clientes la mejor calidad en productos y servicios. Además, ofrecemos envíos a todo el país para que nuestros clientes puedan adquirir nuestros productos desde todo el territorio nacional. Nos aseguramos de que los productos lleguen a su destino en perfectas condiciones y en el menor tiempo posible.</p>
+                    <img src="Imagenes/Envios_Mateel.png"  class="res">
+                    <br class="aff">
+                    <p>Trabajamos con marcas líderes en la industria para garantizar que nuestros clientes tengan acceso a piezas de la mejor calidad. Además, ofrecemos precios competitivos y una excelente atención al cliente para asegurarnos de que nuestros clientes estén satisfechos con su experiencia de compra.</p>
+                </div>
+                <img src="Imagenes/Envios_Mateel.png" class="af">
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide"><img src="Imagenes/MAXI-ICON.png" ></div>
+                        <div class="slide"><img src="Imagenes/HERCULES-ICON.png" alt=""></div>  
+                        <div class="slide"><img src="Imagenes/DNL-ICON.png" alt=""></div>
+                        <div class="slide"><img src="Imagenes/JD-ICON.png" alt=""></div>
+                        <div class="slide"><img src="Imagenes/ZF-ICON.png" alt=""></div>
+                        <div class="slide"><img src="Imagenes/TKS-ICON.png" alt=""></div>
+                            
+                        <div class="slide"><img src="Imagenes/MAXI-ICON.png" alt=""></div>
+                        <div class="slide"><img src="Imagenes/HERCULES-ICON.png" alt=""></div>
+                        <div class="slide"><img src="Imagenes/DNL-ICON.png" alt=""></div>
+                        <div class="slide"><img src="Imagenes/JD-ICON.png" alt=""></div>
+                        <div class="slide"><img src="Imagenes/ZF-ICON.png" alt=""></div>
+                        <div class="slide"><img src="Imagenes/TKS-ICON.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="three" id="terc">
+            <div class="contenedor-acordeon">
+                <h2>Preguntas frecuentes</h2>
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
+                    <label for="btn-acordeon1">
+                        ¿Ofrecen servicios de envío a nivel nacional?
+                    </label>
+                    <div class="contenido-acordeon">
+                        <p>Sí, realizamos envíos a nivel nacional. Consulta con nuestro equipo para conocer las opciones de envío disponibles.</p>
+                    </div>
+                </div>
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
+                    <label for="btn-acordeon2">
+                        ¿En donde se ubican?
+                    </label>
+                    <div class="contenido-acordeon">
+                            <p>Contamos con sucursales en Lima ,Pucallpa ,Cañete,Huancayo,Ayacucho,Cusco.</p>
+                    </div>
+                </div>
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
+                    <label for="btn-acordeon3">
+                        ¿Que Metodos de Pago aceptan?
+                    </label>
+                    <div class="contenido-acordeon">
+                        <p>Aceptamos efectivo en Soles o en Dolares , deposito a cuenta en Soles o en Dolares y yape.</p>
+                    </div>
+                </div>
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
+                    <label for="btn-acordeon4">
+                        ¿Hacen pedido de piezas a Importacion?
+                    </label>
+                    <div class="contenido-acordeon">
+                        <p>Si la pieza buscada no se encuetran en stock podemos importarlo en un tiempo de espera de 10 a 15 dias aproximadamente.</p>
+                    </div>
+                </div>
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon5" class="btn-acordeon">
+                    <label for="btn-acordeon5">
+                        ¿Puedo solicitar una cotización personalizada para un equipo específico?
+                    </label>
+                    <div class="contenido-acordeon">
+                        <p>Por supuesto, puedes contactarnos para obtener una cotización personalizada según tus requisitos específicos.</p>
+                    </div>
+                </div>
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon6" class="btn-acordeon">
+                    <label for="btn-acordeon6">
+                        ¿Qué tipos de partes de maquinaria pesada ofrecen?
+                    </label>
+                    <div class="contenido-acordeon">
+                        <p>Ofrecemos una amplia variedad de partes para maquinaria pesada, incluyendo repuestos para motores, sistemas hidráulicos, tren de rodaje, y más.</p>
+                    </div>
+                </div>
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon7" class="btn-acordeon">
+                    <label for="btn-acordeon7">
+                        ¿Las partes que venden son originales o alternativas?
+                    </label>
+                    <div class="contenido-acordeon">
+                        <p>Suministramos tanto partes originales de fabricantes como opciones de alta calidad de marcas de confianza.</p>
+                    </div>
+                </div>
+                <div class="acordeon">
+                    <input type="radio" name="acordeon" id="btn-acordeon8" class="btn-acordeon">
+                    <label for="btn-acordeon8">
+                        ¿Cómo puedo encontrar la parte específica que necesito para mi maquinaria?
+                    </label>
+                    <div class="contenido-acordeon">
+                            <p>Puedes contactar a nuestro equipo de ventas para obtener asistencia en la identificación y selección de las partes que necesitas.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article class="four" id="cuart">
+
+            <form class="cont" action="https://formsubmit.co/mattel.eirl@gmail.com" method="POST">
+                <img src="Imagenes/mateel_logo.png" width="50%">
+                <h2>Contactanos</h2>
+                <input type="text" class="imt" placeholder="Ingrese su nombre" name="name" required>
+                
+                <input type="email" class="imt" placeholder="Ingrese su correo" name="email" required>
+                <input type="text" class="texx" placeholder="Ingrese su mensaje" name="mensaje" required>
+                <button type="submit">Enviar</button>
+            </form>
+            <img src="Imagenes/FONE.png" class="afaf">
+        </article> 
+        
+    </main>
+    <footer class="footer" >
+        <img src="imagenes/mateel_logo.png" class="img_footer" id="fota1">
+        <div class="list_footer"id="fota2">
+            <a class="icon" href="mailto:mattel.eirl@gmail.com?subject=Hola%2C%20podr%C3%ADas%20ayudarme%20en...&body="><i class="fa-regular fa-envelope"></i></a>
+            <a class="icon" href="https://api.whatsapp.com/send?phone=51990320160"><i class="fa-brands fa-whatsapp"></i></a>
+            <a class="icon" href="https://m.me/100064132567878"><i class="fa-regular fa-message"></i></a>
+            <a class="icon" href="https://www.facebook.com/profile.php?id=100064132567878"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="mini_menu" id="fota3">
+            <a href="#prim" >Inicio</a>
+            <a href="#segu">Nosotros</a>
+            <a href="#terc">Preguntas Frecuentes</a>
+            <a href="#cuart">Contactanos</a>
+        </div>
+        <p id="fota4" class="copyryt"><i class="fa-regular fa-copyright"></i>2023 Matterl EIRL | All rights reserved</p>
+    <footer>
+
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
